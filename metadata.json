@@ -1,0 +1,9 @@
+{
+  "uuid": "work-mode@jacocanete",
+  "name": "Work Mode",
+  "description": "Block distracting applications during work mode with automatic scheduling",
+  "version": 1,
+  "shell-version": ["45", "46", "47", "48"],
+  "url": "https://github.com/jacocanete/work-mode-gnome-extension",
+  "settings-schema": "org.gnome.shell.extensions.work-mode"
+}

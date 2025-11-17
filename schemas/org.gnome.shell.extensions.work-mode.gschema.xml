@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.work-mode" path="/org/gnome/shell/extensions/work-mode/">
+    <key name="work-mode-enabled" type="b">
+      <default>false</default>
+      <summary>Work Mode Status</summary>
+      <description>Whether work mode is currently enabled</description>
+    </key>
+
+    <key name="blocked-apps" type="as">
+      <default>['steam', 'discord']</default>
+      <summary>Blocked Applications</summary>
+      <description>List of application names or IDs to block during work mode</description>
+    </key>
+
+    <key name="schedule-enabled" type="b">
+      <default>false</default>
+      <summary>Schedule Enabled</summary>
+      <description>Whether to automatically enable/disable work mode on a schedule</description>
+    </key>
+
+    <key name="schedule-start-hour" type="i">
+      <default>9</default>
+      <range min="0" max="23"/>
+      <summary>Schedule Start Hour</summary>
+      <description>Hour to automatically enable work mode (0-23)</description>
+    </key>
+
+    <key name="schedule-start-minute" type="i">
+      <default>0</default>
+      <range min="0" max="59"/>
+      <summary>Schedule Start Minute</summary>
+      <description>Minute to automatically enable work mode (0-59)</description>
+    </key>
+
+    <key name="schedule-end-hour" type="i">
+      <default>22</default>
+      <range min="0" max="23"/>
+      <summary>Schedule End Hour</summary>
+      <description>Hour to automatically disable work mode (0-23)</description>
+    </key>
+
+    <key name="schedule-end-minute" type="i">
+      <default>0</default>
+      <range min="0" max="59"/>
+      <summary>Schedule End Minute</summary>
+      <description>Minute to automatically disable work mode (0-59)</description>
+    </key>
+
+    <key name="auto-enabled-by-schedule" type="b">
+      <default>false</default>
+      <summary>Auto-enabled by Schedule</summary>
+      <description>Internal flag tracking if work mode was enabled automatically</description>
+    </key>
+  </schema>
+</schemalist>
