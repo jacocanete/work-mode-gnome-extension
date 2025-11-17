@@ -1,0 +1,34 @@
+# Compiled GSettings schemas
+schemas/gschemas.compiled
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+*.zip
+dist/
+build/
+
+# Node modules (if you add any build tools)
+node_modules/
+package-lock.json
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+.*.tmp
